@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Transform Effects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2 class="title"> Scroll If You Have Dare </h2>
+    <section></section>
+    <div class="container">
+        <h2>When you scroll it will be magic </h2>
+        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing
+            layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
+            industries for previewing layouts and visual mockups. <br> <br> Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly
+            used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem
+            ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.<br> <br> Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
+            previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print,
+            and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.<br> <br> Lorem ipsum is placeholder
+            text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual
+            mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+            for previewing layouts and visual mockups. </p>
+    </div>
+    <script>
+        var section = document.querySelector('section');
+        window.addEventListener('scroll', function() {
+            var value = window.scrollY;
+            section.style.clipPath = "circle(" + value + "px at center) "
+        })
+    </script>
+
+
+</body>
+
+</html>
